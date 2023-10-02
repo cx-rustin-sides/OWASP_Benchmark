@@ -114,7 +114,7 @@
 								<configuration>
 									<target>
 										<ant target="run" antfile="${basedir}/src/config/build.xml">
-											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath" />
+											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath"/>
 										</ant>
 									</target>
 								</configuration>
@@ -128,7 +128,7 @@
 								<configuration>
 									<target>
 										<ant target="databaseServer" antfile="${basedir}/src/config/build.xml">
-											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath" />
+											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath"/>
 										</ant>
 									</target>
 								</configuration>
@@ -142,7 +142,7 @@
 								<configuration>
 									<target>
 										<ant target="databaseInit" antfile="${basedir}/src/config/build.xml">
-											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath" />
+											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath"/>
 										</ant>
 									</target>
 								</configuration>
@@ -212,7 +212,7 @@
 								<configuration>
 									<target>
 										<ant target="run" antfile="${basedir}/src/config/build.xml">
-											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath" />
+											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath"/>
 										</ant>
 									</target>
 								</configuration>
@@ -226,7 +226,7 @@
 								<configuration>
 									<target>
 										<ant target="databaseServer" antfile="${basedir}/src/config/build.xml">
-											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath" />
+											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath"/>
 										</ant>
 									</target>
 								</configuration>
@@ -240,7 +240,7 @@
 								<configuration>
 									<target>
 										<ant target="databaseInit" antfile="${basedir}/src/config/build.xml">
-											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath" />
+											<reference torefid="maven.compile.classpath" refid="maven.compile.classpath"/>
 										</ant>
 									</target>
 								</configuration>
@@ -560,7 +560,7 @@ But it might be needed for Java 10, because I get this error, that I don't get w
      [java] Caused by: java.lang.NumberFormatException: multiple points
      [java] at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1914)
 -->
-			<version>1.5.7</version>
+			<version>2.0.0.AM25</version>
 			<exclusions>
 				<!-- shared-ldap-schema module needs to be excluded to avoid multiple 
 					schema resources on the classpath -->
@@ -587,7 +587,7 @@ But it might be needed for Java 10, because I get this error, that I don't get w
 		<dependency>
 			<groupId>org.owasp.esapi</groupId>
 			<artifactId>esapi</artifactId>
-			<version>2.1.0.1</version>
+			<version>2.5.0.0</version>
 		</dependency>
 
 	</dependencies>
@@ -823,7 +823,7 @@ But it might be needed for Java 10, because I get this error, that I don't get w
 		<version.hibernate>3.6.10.Final</version.hibernate>
 		<version.jackson>2.9.8</version.jackson>
 		<version.jersey>1.19.4</version.jersey>
-		<version.slf4j>1.7.26</version.slf4j>
+		<version.slf4j>1.7.34</version.slf4j>
 		<version.spotbugs.maven>3.1.11</version.spotbugs.maven>
 		<!-- Spring Framework 4.2x is an API breaking change. Would like to upgrade to 4.3x actually -->
 		<version.springframework>4.1.9.RELEASE</version.springframework>
